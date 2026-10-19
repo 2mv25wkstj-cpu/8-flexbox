@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(191, 33, 191);
+}
+body{
+    margin:0%; 
+}
+.site-links{
+    list-style:none;
+    padding:10px;
+    display:flex;
+    gap: 10px; 
+}
+.site-links{
+    background-color: rgb(244, 244, 117);
+    padding:10px;
+    color:rgb(13, 13, 202);
+    text-decoration: none;
+    border-radius: 10px;
+}
+.site-links:hover {
+    background-color:  rgb(226, 168, 226);
+}
