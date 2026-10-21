@@ -1,22 +1,41 @@
 html{
-    background-color: rgb(191, 33, 191);
+    background-color: rgb(237, 139, 237);
+font-family:Archivo Black;
 }
 body{
     margin:0%; 
 }
-.site-links{
-    list-style:none;
-    padding:10px;
-    display:flex;
-    gap: 10px; 
+.site-header{
+    background-color:rgb(246, 246, 130);
+    padding:10px
+   
+}
+.sidebar{
+    background-color: aqua;
+     padding:10px;
+     flex:0 0 200px
+}
+.side-main{
+    background-color:rgb(156, 209, 255);
+     padding:10px
+}
+.site-footer{
+    background-color: rgb(138, 254, 138);
+     padding:10px
+}
+.two-column{
+    display: flex;
+    gap:10px;
+    margin:10px 0;
+}
+.wrapper{
+    background-color: pink;
+    max-width: 700px;
+    margin: 30px auto 0 auto;
 }
 .site-links{
-    background-color: rgb(244, 244, 117);
-    padding:10px;
-    color:rgb(13, 13, 202);
-    text-decoration: none;
-    border-radius: 10px;
-}
-.site-links:hover {
-    background-color:  rgb(226, 168, 226);
+    list-style-type:none; 
+    display: flex;
+    gap: 20px;
+    padding:0;
 }
